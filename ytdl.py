@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor
 INPUT_DIR = './transcripts'
 OUTPUT_DIR = './clips'
 METADATA_FILE = 'metadata.tsv'
-MAX_FILE_WORKERS = 10  # Memproses 10 file sekaligus
+MAX_FILE_WORKERS = 5  # Memproses 10 file sekaligus
 
 # Lock dan Tracking
 file_lock = threading.Lock()
